@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "digital-desk",
+    "slug": "digital-desk",
+    "version": "1.0.0",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      "expo-router"
+    ],
+    "web": {
+      "bundler": "metro"
+    },
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
