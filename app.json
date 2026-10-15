@@ -3,10 +3,18 @@
     "name": "digital-desk",
     "slug": "digital-desk",
     "version": "1.0.0",
-    "scheme": "myapp",
+    "scheme": "digitaldesk",
     "userInterfaceStyle": "automatic",
     "plugins": [
-      "expo-router"
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#5577E8",
+          "defaultChannel": "default"
+        }
+      ]
     ],
     "web": {
       "bundler": "metro"
